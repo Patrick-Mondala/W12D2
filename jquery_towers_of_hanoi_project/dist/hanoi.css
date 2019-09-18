@@ -1,0 +1,40 @@
+.hanoi {
+    display: flex;
+}
+
+.hanoi > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+    border-bottom: 5px solid black;
+    width: 120px;
+}
+
+.hanoi > ul > li {
+    list-style-type: none;
+}
+
+.disc {
+    background-color: gray;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+#disc-one {
+    width: 20px;
+}
+
+#disc-two {
+    width: 60px;
+}
+
+#disc-three {
+    width: 100px;
+}
+
+#selected {
+    border-bottom: 5px solid red;
+}
